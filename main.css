@@ -39,6 +39,11 @@ main>.breadcrumb a:not(.active) {
     color: #35e4fc;
 }
 
+/*  CURRICULUM */
+.tstyle5 th {
+    background: #665b5b; 
+}
+
 /* Main Sections */
 header .nav li>a {
     background-color: #5e5555;
@@ -174,7 +179,6 @@ tr {
 /* Months */
 .table caption {
     background-color: #554c4c !important;
-    
 }
 
 /* Days Rows */
@@ -187,4 +191,38 @@ td {
     color: WHITE;
     background-color: #414a4b40;
 
+}
+
+.separator2 {
+    background: none;
+}
+
+/* removing separators */
+td img {
+    display: none;
+}
+
+/* Grades */
+table.scplan tr.scplanenrollment td {
+    color: WHITE;
+}
+
+/* ECTS Column */
+table.scplan tr.scplangroup td.scplancolects {
+    color: WHITE;
+}
+
+/* Wheights column */
+table.scplan tr.scplangroup td.scplancolweight {
+    color: WHITE;
+}
+
+/* Grades Columns */
+table.scplan tr.scplangroup td.scplancolgrade {
+    color: WHITE;
+}
+
+/* Dropdown of the course statistics */
+select {
+    background-color: #8d8d8d;
 }
