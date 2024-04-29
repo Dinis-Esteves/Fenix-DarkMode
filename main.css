@@ -159,7 +159,32 @@ header .nav li.active a:hover {
 }
 
 
-/* RECURSE NOT FOUND PAGE */
+/* RESOURCE NOT FOUND PAGE */
 .container {
     background-color: #847777;
+}
+
+/* CALENDAR PAGE */
+
+/* Weak Days Rows */
+tr {
+    background-color: #847777 !important;
+}
+
+/*  */
+.table caption {
+    background-color: #554c4c !important;
+    
+}
+
+/* Days Rows */
+td {
+    background-color: #978787 !important;
+}
+
+/* Dropdowns */
+.tstyle1 select, .tstyle2 select, .tstyle3 select, .tstyle4 select, .tstyle5 select, .tstyle7 select, .tstyle8 select, .tstyle9 select {
+    color: WHITE;
+    background-color: #414a4b40;
+
 }
