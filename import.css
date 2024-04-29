@@ -1,0 +1,230 @@
+@-moz-document url-prefix("https://fenix.tecnico.ulisboa.pt/") {
+/* MAIN */
+body {
+    background-color: #464141;
+    color: #000;
+}
+
+/* Left Bar subtopics */
+nav#context .nav li>a  {
+    color: WHITE;
+}
+
+nav#context .nav li>a:hover {
+    background-color: GREY;
+}
+
+/* Titles in the left Bar */
+nav#context .nav li.navheader strong {
+    color: WHITE;
+    font-size: 17px;
+}
+
+/* background of the inner main page */
+.col-sm-push-2 {
+    background-color: #5e5555;
+}
+
+/* current page name */
+h1 {
+    color: #fff;
+}
+
+/* hiperlinks */
+a {
+    color: #35e4fc;
+}
+
+/* Path */
+main>.breadcrumb a:not(.active) {
+    color: #35e4fc;
+}
+
+/*  CURRICULUM */
+.tstyle5 th {
+    background: #665b5b; 
+}
+
+/* Main Sections */
+header .nav li>a {
+    background-color: #5e5555;
+    color: WHITE;
+    border-color: BLACK;
+}
+
+header .nav li>a:hover {
+    background-color: #4684ad;
+    color: WHITE;
+}
+
+/* Selected Main Section */
+header .nav li.active a {
+    background-color: #46a0ad;
+}
+
+header .nav li.active a:hover {
+    background-color: #46a0ad;
+}
+
+/* ANNOUNCEMENTS PAGE */
+/* background of all the Announcements */
+.panel-body {
+    background-color: #847777;
+}
+
+/* text of the Announcements */
+* {
+    color: WHITE;
+}
+/* STUDENTS PAGE */
+.alert-warning {
+    background-color: #6f6363;
+    border-color: #453434;
+}
+
+/* Table Main Rows */
+.tstyle1 th {
+    background-color: #847777;
+}
+
+/* Table Rows */
+.table-condensed>tbody>tr>td {
+    background-color: #847777 !important;   
+}
+
+/* Text Rows */
+.color888 {
+    color: #ffffffab;
+}
+
+/* PERSONAL PAGE */
+
+/* Camp Names */
+.infoop {
+    background-color: #847777;
+    border: none;   
+}
+
+/* Photo Info */
+.well-sm {
+    background-color: #847777;
+    border-color: #535050;
+}
+
+/* Table 2 - First Row */
+.table-condensed>tbody>tr>th {
+    border: none;
+    
+}
+
+/* Table Labels */
+.table>tbody>tr>th {
+    background-color: #665b5b;
+    border: none;
+}
+
+/* Table Parameters */
+.tstyle2 td {
+    background-color: #847777;
+} 
+
+/* COUSE PAGES */
+
+/* Pages */
+#content-block {
+    background-color: #847777;
+    border-top: 1px solid #ffffff;
+    border-right: none;
+}
+
+/* Right Options */
+
+.nav-pills>li>a.item {
+    background-color: #847777;
+    color: WHITE;
+}
+
+.nav-pills>li>a.item:hover{
+    background-color: #0f87c6ba;
+}
+
+/* Right Option Selected */
+.nav-pills>li.active>a.item {
+    background-color: #0f87c6bd;
+    color: WHITE;
+}
+
+.nav-pills>li.active>a.item:hover {
+    background-color: #0f87c6bd;
+    color: WHITE
+}
+
+/* Couse Name */
+.site-header a {
+    color: WHITE;
+}
+
+
+/* RESOURCE NOT FOUND PAGE */
+.container {
+    background-color: #847777;
+}
+
+/* CALENDAR PAGE */
+
+/* Weak Days Rows */
+tr {
+    background-color: #847777 !important;
+}
+
+/* Months */
+.table caption {
+    background-color: #554c4c !important;
+}
+
+/* Days Rows */
+td {
+    background-color: #978787 !important;
+}
+
+/* Dropdowns */
+.tstyle1 select, .tstyle2 select, .tstyle3 select, .tstyle4 select, .tstyle5 select, .tstyle7 select, .tstyle8 select, .tstyle9 select {
+    color: WHITE;
+    background-color: #414a4b40;
+
+}
+
+.separator2 {
+    background: none;
+}
+
+/* removing separators */
+td img {
+    display: none;
+}
+
+/* Grades */
+table.scplan tr.scplanenrollment td {
+    color: WHITE;
+}
+
+/* ECTS Column */
+table.scplan tr.scplangroup td.scplancolects {
+    color: WHITE;
+}
+
+/* Wheights column */
+table.scplan tr.scplangroup td.scplancolweight {
+    color: WHITE;
+}
+
+/* Grades Columns */
+table.scplan tr.scplangroup td.scplancolgrade {
+    color: WHITE;
+}
+
+/* Dropdown of the course statistics */
+select {
+    background-color: #8d8d8d;
+}
+}
