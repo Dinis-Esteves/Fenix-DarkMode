@@ -10,6 +10,6 @@ git clone git@github.com:Dinis-Esteves/Fenix-DarkMode.git
 ```
 
 2. Install the extension [stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or similar
-3. Go to the definitions of the extension and click in import.
-4. Just paste de import.css file.
+3. Go to the definitions of the extension, click in wirte new stylew and then click in import.
+4. Just paste the import.css file in the pop up.
 5. Done!
